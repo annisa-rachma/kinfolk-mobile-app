@@ -1,0 +1,407 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "email": "admin1@mail.com",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "0123456",
+      "address": "dimana saja"
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "email": "admin2@mail.com",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "0123456",
+      "address": "dimana dimana"
+    },
+    {
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Art Prints"
+    },
+    {
+      "id": 2,
+      "name": "Books"
+    },
+    {
+      "id": 3,
+      "name": "Kindling"
+    },
+    {
+      "id": 4,
+      "name": "Magazine"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Issue Forty-Nine",
+      "slug": "Issue-Forty-Nine",
+      "description": "Join us in Scandinavia and get a deeper look inside the cultural powerhouse. In this issue, we examine Scandinavia through a different lens than most, looking beyond the quality-of-life tropes to interrogate the region's darkness and the creativity it can breed. We speak to pop icon Tove Lo, provocative filmmaker Ruben Östlund, and Sweden's preeminent painter Karin Mamma Andersson, among others. Plus essays on the mainstream, hotel art and how to make a decision.",
+      "price": 22,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2023/08/K49_Spread_000-1.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Issue Forty-Eight",
+      "slug": "Issue-Forty-Eight",
+      "description": "Dive into the deep unknown with Kinfolk’s Water Issue. Featuring underwater fashion, summery stories and profiles of people who’ve built their lives around the water, Issue Forty-Eight is an invocation to readers to protect the planet’s most precious resource by rejoicing in its beauty.",
+      "price": 22,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2023/05/K48_Spread_000-2000x1333.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "name": "Issue Forty-Seven",
+      "slug": "Issue-Forty-Seven",
+      "description": "Rather than advocating for any particular miracle cure, Issue Forty-Seven focuses on well-being as an innate balance to be safeguarded. You’ll meet inspiring people for whom the well-being of others is paramount, featuring Walt Odets on the power of therapy, Chani Nicholas and Sonya Passi on financial well-being, Julia Bainbridge on sobriety, and Alice Sheppard on dance as a way to commune with the body—even when it hurts. Plus: interviews with fashion icon Farida Khelfa, tattoo artist Dr. Woo, superstar stylist Veneda Carter, and much more.",
+      "price": 22,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2023/02/K47_Spread_000.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "name": "Issue Forty-Six",
+      "slug": "Issue-Forty-Six",
+      "description": "Make space for what matters most with Kinfolk’s first ever interiors issue. Inside you’ll find remote farmhouses in Japan and England, modernist masterpieces in California and the Australian bush, a guesthouse off the coast of Senegal and two palace apartments remodeled by fashion designer occupants. Plus: British designer Samuel Ross, French couturier Charles de Vilmorin, West Coast sculptor Yoko Kubrick and DJ Hunee.",
+      "price": 18,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2022/11/K46_Spread_000.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 5,
+      "name": "Issue Forty-Five",
+      "slug": "Issue-Forty-Five",
+      "description": "Every human engagement with nature will leave its mark. In The Great Outdoors Issue, we meet the people thinking about how to mediate these contact moments in fresh and nuanced ways. They include garden creator Piet Oudolf, Snow Peak fashion designer Lisa Yamai, explorer Ella Al-Shamahi and underwater archeologist Ayana Omilade Flewellen. Plus: Yoga with Adriene, writing with Zawe Ashton, a Parisian home tour with the founders of Galerie Chenel and a Romain Laprade fashion editorial that brings new flair to the notion of camouflage.",
+      "price": 18,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2022/09/K45_Spread_000.jpg",
+      "categoryId": 4,
+      "authorId": 1
+    },
+    {
+      "id": 6,
+      "name": "Accidental Artwork",
+      "slug": "Accidental-Artwork",
+      "description": "Composed and shot by Kinfolk photographer Cecilie Jegsen, Accidental Artwork is a tactile exploration of how a creative gaze can transform everyday objects. Simple in its execution but beautiful in its details, the still life features fine Scottish paper from Arjowiggins in a tone called Old Rose.",
+      "price": 109,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2020/11/The-Print-Collection_Product_II_50-70_007_gray.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 7,
+      "name": "Autumn Ray",
+      "slug": "Autumn-Ray",
+      "description": "This monochrome diptyque was shot by Kinfolk art director Staffan Sundström. Inspired by the sunlight that bathes the Nordic region in November, Sundström captured and abstracted its last long rays before the darkness of winter.",
+      "price": 142,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2020/11/The-Print-Collection_Product_II_50-70_008_gray.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 8,
+      "name": "Body Language",
+      "slug": "Body-Language",
+      "description": "Inspired by the idea of a tableau vivant, Kinfolk photographer Cecilie Jegsen’s personal series FORM celebrates the body through sculptural silhouettes and abstract arrangements. This image, Body Language, plays with volume, harmony and balance.",
+      "price": 142,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2020/11/The-Print-Collection_Product_II_50-70_005_gray.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 9,
+      "name": "Le Chat Chic",
+      "slug": "Le-Chat-Chic",
+      "description": "Meet Socrate, the beloved cat of Luc Braquet—the French photographer responsible for some of Kinfolk’s most glamourous fashion editorials including The Big Swing and Summer at Sea. Originally commissioned for Kinfolk’s Summer 2019 issue, the series Le Chat Chic saw Braquet and stylist Tania Rat-Patron try something a little different: They transformed Socrate into a Parisian glamour puss—and one of the magazine’s most popular models of all time. For The Kinfolk Print Collection, Socrate waves a classic Hermès silk scarf with carefree abandon. Fur coat: Model’s own.",
+      "price": 142,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2020/06/The_Kinfolk_Print_Collection_Product_1500x1000_003.jpg",
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 10,
+      "name": "The Art of Kinfolk",
+      "slug": "The-Art-of-Kinfolk",
+      "description": "After 50 issues and 700,000 books in print, The Art of Kinfolk presents a compelling curation of our tenure in print. While the magazine has evolved over time, one defining characteristic has remained constant since its inception: a dedication to publishing only the most exquisite photography. From interiors to fashion, portraiture, food and travel, the magazine’s consistently boundary-pushing imagery has coalesced into one of the most immersive lifestyle aesthetics of the last decade.",
+      "price": 75,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2023/07/TAOK_cover-2000x1333.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 11,
+      "name": "Kinfolk Wilderness",
+      "slug": "Kinfolk-Wilderness",
+      "description": "Discover the joy of the great outdoors and the pleasures of slow travel with Kinfolk Wilderness. Whatever your pace or purpose, the stories within will provide you with a fresh perspective on what it means to be “outdoorsy,” whether that means trekking from hut to hut in New Zealand, saddling up at a Patagonian ranch or simply taking a moment for mindfulness amid the pristine peaks of Bhutan.",
+      "price": 45,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2023/02/KW_Product_Spread_000_2000x1333.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 12,
+      "name": "Kinfolk Islands",
+      "slug": "Kinfolk-Islands",
+      "description": "Join Kinfolk on a journey off the beaten track, to islands big and small, in this collection of 18 new travel stories. Following the success of Kinfolk Travel, the new book is the start of an exciting series of titles that foster thoughtful perspectives on the places we visit.",
+      "price": 45,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2022/05/KI_Product_Spread_Cover.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 13,
+      "name": "Kinfolk Travel",
+      "slug": "Kinfolk-Travel",
+      "description": "Kinfolk Travel is an invitation to see more of the world by doing less. Following on from The Kinfolk Table, Home, Entrepreneur and Garden, the latest book from the team behind Kinfolk magazine celebrates slow travel and the idea that an attitude of discovery is more meaningful than any particular action or itinerary. Featuring over 25 beautiful destinations across six continents, Kinfolk Travel offers an easy, mindful approach to exploring the world at your own pace, whether you’re five or five thousand miles from home.",
+      "price": 40,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2021/04/Kinfolk_TRAVEL_2000x1333_light-gray.jpg",
+      "categoryId": 2,
+      "authorId": 1
+    },
+    {
+      "id": 14,
+      "name": "Kindling 03",
+      "slug": "Kindling-03",
+      "description": "Interviews, features and imaginary friends: Issue Three of Kindling is on sale now! In THE IMAGINATION ISSUE, we chart the joy, terror and philosophical quandaries that come with raising a child. There are features on digital play, childhood fears and the unwritten rules of children’s music, plus an interview with designer Cas Holman about why “good toys make good people.” Also inside the issue: Former California surgeon general Nadine Burke Harris on childhood traumas and what can be done to mitigate them, Christine Sun Kim on art and motherhood, and your questions answered: Is Mean Girls’ Mrs. George a cool mom, a regular mom, or actually a really good mom? Why do kids love garbage trucks? How can I get my child to realize I’m a person too?",
+      "price": 11.95,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2022/06/KINDLING_3_cover-product-2000x1333.jpg",
+      "categoryId": 3,
+      "authorId": 1
+    },
+    {
+      "id": 15,
+      "name": "Kindling 02",
+      "slug": "Kindling-02",
+      "description": "Kindling is the new magazine for people with children from the team who make Kinfolk. Packed with thought-provoking features, fun activities and playful photography and illustrations, it’s a place to explore the fresh perspectives that come with raising a child. In the Body Issue we team up with Wow in the World to answer children’s most curious questions about their bodies, interview the Swedish social worker who successfully campaigned for the “snippa”—a neutral word to replace the many euphemisms used for female genitals, and report on the important role of parents and caregivers in making children feel good about their bodies. In our fashion shoots, we’re making DIY hi-vis outfits and customizing crutches, wheelchairs and casts!",
+      "price": 11.95,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2021/11/KINDLING_2_spreads_000.jpg",
+      "categoryId": 3,
+      "authorId": 1
+    },
+    {
+      "id": 16,
+      "name": "Kindling 01",
+      "slug": "Kindling-01",
+      "description": "Welcome to Kindling: our new magazine for people with children! Issue One, The Emotions Issue, is packed with interviews, features and fun activities, from forest schools to pillow forts. Join us in exploring the new ideas and fresh perspectives that come with raising a child.",
+      "price": 11.95,
+      "mainImg": "https://www.kinfolk.com/wp-content/uploads/2021/04/KINDLING_1_cover-product_2000x1333.jpg",
+      "categoryId": 3,
+      "authorId": 1
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/08/K49_Spread_021.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/08/K49_Spread_028.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/08/K49_Spread_063.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/05/K48_Spread_021.jpg"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/05/K48_Spread_033.jpg"
+    },
+    {
+      "id": 6,
+      "productId": 2,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/05/K48_Spread_039.jpg"
+    },
+    {
+      "id": 7,
+      "productId": 3,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/K47_Spread_020.jpg"
+    },
+    {
+      "id": 8,
+      "productId": 3,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/K47_Spread_033.jpg"
+    },
+    {
+      "id": 9,
+      "productId": 3,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/K47_Spread_038.jpg"
+    },
+    {
+      "id": 10,
+      "productId": 4,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/11/K46_Spread_022.jpg"
+    },
+    {
+      "id": 11,
+      "productId": 4,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/11/K46_Spread_039.jpg"
+    },
+    {
+      "id": 12,
+      "productId": 4,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/11/K46_Spread_047.jpg"
+    },
+    {
+      "id": 13,
+      "productId": 5,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/09/K45_Spread_017.jpg"
+    },
+    {
+      "id": 14,
+      "productId": 5,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/09/K45_Spread_049.jpg"
+    },
+    {
+      "id": 15,
+      "productId": 5,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/09/K45_Spread_052.jpg"
+    },
+    {
+      "id": 16,
+      "productId": 6,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2020/11/Kinfolk_x_Alium_Cecilie_Jegsen_Accidental_Artwork_Shop_02-2000x1333.jpg"
+    },
+    {
+      "id": 17,
+      "productId": 7,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2020/11/Kinfolk_x_Alium_Staffan_Sundstro%CC%88m_Bent_To_Shape_Shop_01-2000x1332.jpg"
+    },
+    {
+      "id": 18,
+      "productId": 8,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2020/11/Kinfolk_x_Alium_Cecilie_Jegsen_Body_Language_Shop_01-2000x1332.jpg"
+    },
+    {
+      "id": 19,
+      "productId": 9,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2020/06/The_Kinfolk_Print_Collection_Product_1500x1000_0011.jpg"
+    },
+    {
+      "id": 20,
+      "productId": 10,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/07/TAOK_Product_Spread_001.jpg"
+    },
+    {
+      "id": 21,
+      "productId": 10,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/07/TAOK_Product_Spread_005.jpg"
+    },
+    {
+      "id": 22,
+      "productId": 10,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/07/TAOK_Product_Spread_008.jpg"
+    },
+    {
+      "id": 23,
+      "productId": 11,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/BC2A2417-2_web-2000x1333.jpg"
+    },
+    {
+      "id": 24,
+      "productId": 11,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/BC2A2383-2_web-2000x1333.jpg"
+    },
+    {
+      "id": 25,
+      "productId": 11,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2023/02/KW_Product_Spread_034.jpg"
+    },
+    {
+      "id": 26,
+      "productId": 12,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/05/KI_Product_Spread_003_extra.jpg"
+    },
+    {
+      "id": 27,
+      "productId": 12,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/05/KI_Product_Spread_022.jpg"
+    },
+    {
+      "id": 28,
+      "productId": 12,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/05/KI_Product_Spread_047.jpg"
+    },
+    {
+      "id": 29,
+      "productId": 13,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KT_product_slider_002-2000x1334.jpg"
+    },
+    {
+      "id": 30,
+      "productId": 13,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KT_product_slider_006-2000x1334.jpg"
+    },
+    {
+      "id": 31,
+      "productId": 13,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KT_product_slider_0011-2000x1334.jpg"
+    },
+    {
+      "id": 32,
+      "productId": 14,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/06/KINDLING_3_spreads_poster.jpg"
+    },
+    {
+      "id": 33,
+      "productId": 14,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/06/KINDLING_3_spreads_006.jpg"
+    },
+    {
+      "id": 34,
+      "productId": 14,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2022/06/KINDLING_3_spreads_018.jpg"
+    },
+    {
+      "id": 35,
+      "productId": 15,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/11/KINDLING_2_spreads_011.jpg"
+    },
+    {
+      "id": 36,
+      "productId": 15,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/11/KINDLING_2_spreads_012.jpg"
+    },
+    {
+      "id": 37,
+      "productId": 15,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/11/KINDLING_2_spreads_018.jpg"
+    },
+    {
+      "id": 38,
+      "productId": 16,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KINDLING_1_spreads_006.jpg"
+    },
+    {
+      "id": 39,
+      "productId": 16,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KINDLING_1_spreads_025.jpg"
+    },
+    {
+      "id": 40,
+      "productId": 16,
+      "imgUrl": "https://www.kinfolk.com/wp-content/uploads/2021/04/KINDLING_1_spreads_044.jpg"
+    }
+  ]
+}

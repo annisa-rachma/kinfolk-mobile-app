@@ -1,0 +1,10 @@
+npx sequelize-cli model:generate --name User --attributes username:string,email:string,password:string,role:string,phoneNumber:string,address:string
+
+npx sequelize-cli model:generate --name Product --attributes name:string,slug:string,description:string,price:integer,mainImg:string,categoryId:integer,authorId:integer
+
+npx sequelize-cli model:generate --name Category --attributes name:string
+
+npx sequelize-cli model:generate --name Image --attributes productId:integer,imgUrl:string
+
+
+npx sequelize-cli seed:generate --name demo-user

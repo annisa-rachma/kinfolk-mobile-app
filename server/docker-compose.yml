@@ -1,0 +1,20 @@
+services:
+  orchestrator:
+    build: ./orchestrator
+    ports:
+      - "80:4000"
+    environment:
+      USER_URL: ${USER_URL}
+      APP_URL: ${APP_URL}
+
+  services-user:
+    build: ./services/users
+    ports:
+      - "4001:4001"
+
+  services-app:
+    build: ./services/app
+    ports:
+      - "4002:4002"
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
